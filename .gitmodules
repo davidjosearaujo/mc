@@ -1,0 +1,3 @@
+[submodule "AAS/resources"]
+	path = AAS/resources
+	url = git@github.com:detiuaveiro/aas.git

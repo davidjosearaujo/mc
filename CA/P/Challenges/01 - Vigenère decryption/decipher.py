@@ -29,7 +29,5 @@ while True:
     
 # Largest repeated substrings
 newresults = sorted(results, key=lambda item: len(item))
-keySize = len(newresults[-1])
 
-print("Largest repeated string: " + newresults[-1])
-print("String size: " + str(len(newresults[-1])))
+print(newresults)

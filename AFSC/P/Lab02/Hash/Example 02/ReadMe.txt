@@ -1,0 +1,1 @@
+Unzip the two PDF files and calculate their hashes (MD5, SHA1 and SHA256). 

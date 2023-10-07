@@ -362,9 +362,3 @@ Always a faster to _zap_ the website that manually discover since it is faster a
 After knowing these too surfaces, one should start by trying to mount the nfs directory and search for more clues.
 
 Fuzzing and subdomain enumeration were also tried, but did not resolve any relevant information.
-
-# Author
-
-David José Araújo Ferreira, 93444 - [davidaraujo@ua.pt](mailto:davidaraujo@ua.pt)
-
-Report submitted for the Lab 01 of _Analysis and Vulnerability Exploitation_ course at the University of Aveiro.

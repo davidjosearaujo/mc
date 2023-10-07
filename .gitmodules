@@ -1,3 +1,6 @@
 [submodule "AAS/resources"]
 	path = AAS/resources
 	url = git@github.com:detiuaveiro/aas.git
+[submodule "AAS/P/aas-spam-davidjosearaujo"]
+	path = AAS/P/aas-spam-davidjosearaujo
+	url = git@github.com:detiuaveiro/aas-spam-davidjosearaujo.git

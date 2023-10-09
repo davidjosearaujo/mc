@@ -1,8 +1,44 @@
-# Lab02 - Hashing
+# Lab02
 
-## Analysis
+## Imaging
 
-Analysis of checksum collision in different files.
+### Step to produce image
+
+1. Verify image
+![01](./Scheenshots/2023-10-09_11-55.png)
+
+2. Dump memory from the `vmdk` file
+![02](./Scheenshots/2023-10-09_11-58.png)
+
+3. Create image options
+![03](./Scheenshots/2023-10-09_11-59.png)
+
+4. For sake of compatibility, use E01
+![04](./Scheenshots/2023-10-09_11-59_1.png)
+
+5. Identify the evidence and the Examiner
+![05](./Scheenshots/2023-10-09_12-00.png)
+
+6. Partition the image in chunks of 4096MB with high compression
+![06](./Scheenshots/2023-10-09_12-01.png)
+
+![07](./Scheenshots/2023-10-09_12-02.png)
+
+![08](./Scheenshots/2023-10-09_12-10.png)
+
+7. Verify the checksums of the produced image
+![09](./Scheenshots/2023-10-09_12-10_1.png)
+
+
+### Sign the contents
+
+Using GPG, we sign the `E01.txt` file that contains the description and checksums of the volumes.
+
+<P style="page-break-before: always">
+
+## Hashing Analysis Experiments
+
+Analysis of checksum collision in different files given.
 
 ### Example 02
 

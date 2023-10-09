@@ -1,0 +1,39 @@
+﻿Created By AccessData® FTK® Imager 4.7.1.2 
+
+Case Information: 
+Acquired using: ADI4.7.1.2
+Case Number: 01
+Evidence Number: 01
+Unique description: microxp
+Examiner: David Araújo
+Notes:  
+
+--------------------------------------------------------------
+
+Information for C:\Users\test\Desktop\microxpim:
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Logical
+[Drive Geometry]
+ Bytes per Sector: 512
+ Sector Count: 9 437 184
+[Image]
+ Image Type: Raw (dd)
+ Source data size: 4608 MB
+ Sector count:    9437184
+[Computed Hashes]
+ MD5 checksum:    4232a654ff49ab36de2c9ba74d27c96c
+ SHA1 checksum:   89341bd0cb80e0f33cab910b98f52d672522ded4
+
+Image Information:
+ Acquisition started:   Mon Oct  9 11:56:37 2023
+ Acquisition finished:  Mon Oct  9 12:01:48 2023
+ Segment list:
+  C:\Users\test\Desktop\microxpim.E01
+
+Image Verification Results:
+ Verification started:  Mon Oct  9 12:01:48 2023
+ Verification finished: Mon Oct  9 12:03:00 2023
+ MD5 checksum:    4232a654ff49ab36de2c9ba74d27c96c : verified
+ SHA1 checksum:   89341bd0cb80e0f33cab910b98f52d672522ded4 : verified

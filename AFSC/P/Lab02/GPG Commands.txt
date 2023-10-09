@@ -1,0 +1,17 @@
+gpg --full-generate-key # generate key pair
+gpg --list-secret-keys --keyid-format=long # list keys
+
+gpg --send-keys --keyserver hkp://keyserver.ubuntu.com 8D64DAC07C8B0BEA # export public key to server
+
+gpg --export --armor name > /path/to/public-key.asc #export public key to a file
+gpg --export-secret-keys --armor name > /path/to/secret-key-backup.asc #backup private key to a file
+gpg —-import /path/to/secret-key-backup.asc #restore private key from a backup file
+
+gpg --sign file        # produces file.gpg (signed file)
+gpg --clear-sign file  # produces file.asc (clear text signed file)
+gpg --detach-sign file # produces file.sig (detached signature file)
+
+gpg --verify file.sig  # verify file.sig
+
+gpg --keyserver keyserver.ubuntu.com --search-keys 8D64DAC07C8B0BEA      # Look for Keys / Import Keys from Server
+gpg --keyserver keyserver.ubuntu.com --search-keys artur.varanda@sapo.pt # Look for Keys / Import Keys from Server

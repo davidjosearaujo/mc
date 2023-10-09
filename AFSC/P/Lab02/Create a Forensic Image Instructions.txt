@@ -1,0 +1,38 @@
+1. Without extracting the virtual machine assigned to your team, add it as an
+evidence source to FTK Imager running on your computer
+
+2. Create a .e01 forensic image from the virtual machine with FTK Imager
+✓ make sure you have enough disk space for the acquisition
+✓ split into 4 096 MB files to fit into FAT32 file systems if needed
+✓ enable compression, it’s slower, but takes less space
+✓ validate the forensic image
+
+3. Sign your forensic imaging acquisition report
+As you already know, calculating acquired image hashes using summary functions is always good forensic practice.
+Don't forget that in addition to guaranteeing the integrity of the files, it is also convenient to guarantee their authenticity through a digital signature.
+I suggest you use Gpg4win (Windows) or GnuPG (Linux). They are easy to install and use:
+
+Windows:
+https://gpg4win.org/ (already contains Kleopatra frontend)
+
+Ubuntu:
+https://www.gnupg.org/download/index.html
+Frontends:
+sudo apt install gpa
+sudo apt install kleopatra
+
+Use hkp://keyserver.ubuntu.com server to export your public keys.
+
+Notes:
+======
+
+You need to install FTK Imager first. Then you extract the file "Micro XP.7z".
+
+To convert the Micro XP.vdi into a .vmdk file (readable by FTK), use the following elevated command:
+VBoxManage clonehd --format VMDK mydisk.vdi mydisk.vmdk
+
+You can "Create a Disk Image" (FKT Menu Option) from the image "Micro XP.vmdk
+
+You may find more help on "FTK Imager Overview.txt",  "FTKImager_UserGuide.pdf"
+On digital signatures you may find help on "GPG Commands.txt" or inside respective frontend manuals. 
+

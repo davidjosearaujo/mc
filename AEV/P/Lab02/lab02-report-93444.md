@@ -1,10 +1,17 @@
 # Lab 02 - Injection
 
+## Scope
+
+This assessment scope focused on two activities:
+
+1. TryHackMe SQL Injection - an assessment where we implement basic SQLi skill in order to progress through a set o level.
+2. Jupiter HTB VM - starting from the enumeration information from the previous report, we will try to gain access to the VM using a known vulnerability through SQLi
+
 ## Part 1a - TryHackMe
 
-_Observe the resolution ans quizz answers at [TryHackMe Resolution](./TryHackMe%20_%20SQL%20Injection.pdf) pdf file.\_
+_Observe the resolution ans quizz answers at [TryHackMe Resolution](./TryHackMe_SQLInjection.pdf) pdf file._
 
-### Scope
+### Objectives
 
 The objective of this machine was to explore the types of exploitation and methods of interaction during an SQL Injection attack.
 
@@ -13,8 +20,6 @@ One is expected to have explored:
 -   **Types of SQL Injection**: Exploring various types of SQL injection attacks, such as In-Band SQL Injection, Blind SQL Injection and Time-Based Blind SQL Injection.
 -   **Tools and Techniques**: Learning about tools like SQLMap and manual techniques to identify and exploit SQL injection vulnerabilities.
 -   **Mitigation**: Understanding how to prevent SQL injection by implementing security measures like input validation and parameterized queries.
-
-The main task that demand exploration from the user are task 5 through 8.
 
 ### Task 5 - In-Band SQL Injection
 
@@ -128,7 +133,9 @@ One thing I always like to do when visiting _hidden_ pages, is proxy and interce
 
 ![21](./prints/2023-10-10_10-41.png)
 
-Lets proxy all our traffic through BurpSuit using _Proxy_. We can click on `forward` to let the page further render until we find some interesting packets. Sure enough we find the request for data to fill the graphs, and interesting enough, there is raw SQL query in them.
+<P style="page-break-before: always">
+
+Lets proxy all our traffic through BurpSuit using _Proxy_. We can click on `Forward` to let the page further render until we find some interesting packets. Sure enough we find the request for data to fill the graphs, and interesting enough, there is raw SQL query in them.
 
 ![22](./prints/2023-10-10_10-45.png)
 

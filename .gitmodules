@@ -4,3 +4,6 @@
 [submodule "AAS/P/aas-spam-davidjosearaujo"]
 	path = AAS/P/aas-spam-davidjosearaujo
 	url = git@github.com:detiuaveiro/aas-spam-davidjosearaujo.git
+[submodule "AAS/P/aas-anomaly-iot-davidjosearaujo"]
+	path = AAS/P/aas-anomaly-iot-davidjosearaujo
+	url = git@github.com:detiuaveiro/aas-anomaly-iot-davidjosearaujo.git

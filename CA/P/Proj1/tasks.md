@@ -1,0 +1,4 @@
+- [ ] Generate a random 256 bit key from a password.
+- [ ] Blocks must have 64 bits.
+- [ ] Deterministically compute each S-Box from the key.
+- [ ] 

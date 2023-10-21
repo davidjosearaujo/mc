@@ -7,3 +7,6 @@
 [submodule "AAS/P/aas-anomaly-iot-davidjosearaujo"]
 	path = AAS/P/aas-anomaly-iot-davidjosearaujo
 	url = git@github.com:detiuaveiro/aas-anomaly-iot-davidjosearaujo.git
+[submodule "CA/P/e-des"]
+	path = CA/P/e-des
+	url = git@github.com:davidjosearaujo/e-des.git

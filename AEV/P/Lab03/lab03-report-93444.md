@@ -33,7 +33,7 @@ This assessment scope focused on two activities:
 
 ![07](./prints/Screenshot%20from%202023-10-22%2017-20-42.png)
 
-# Toxic HTB Machine
+# Toxic HTB Challenge
 
 TODO
 

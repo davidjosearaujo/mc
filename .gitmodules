@@ -10,3 +10,6 @@
 [submodule "CA/P/e-des"]
 	path = CA/P/e-des
 	url = git@github.com:davidjosearaujo/e-des.git
+[submodule "AAS/P/aas-anomaly-iot-real-data-davidjosearaujo"]
+	path = AAS/P/aas-anomaly-iot-real-data-davidjosearaujo
+	url = git@github.com:detiuaveiro/aas-anomaly-iot-real-data-davidjosearaujo.git

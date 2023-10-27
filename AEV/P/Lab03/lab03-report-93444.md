@@ -70,6 +70,49 @@ This is exactly what we do. Firstly, we find out what theres is in the root fold
 
 Opening this file reveals the flag that we were searching.
 
+<P style="page-break-before: always">
+
+
+# Juice Shop
+
+Log in with Bender’s user account. This is done via a SQLInjection with the payload `bender@juice-sh.op' OR 1=1 --//`. This results in a successful login.
+
+![11](./prints/2023-10-27_15-25.png)
+
+By decoding the token received, we can see that it is a JWT token, and we are able to obtain information about the user.
+
+![12](./prints/2023-10-27_15-28.png)
+
+<P style="page-break-before: always">
+
+We can also browser the application page by impersonating the user whose cookie we hijacked.
+
+![13](./prints/2023-10-27_15-31.png)
+
+<P style="page-break-before: always">
+
+After that we can change the users password. We analyze the the request that is used for updating the password.
+
+![14](./prints/2023-10-27_15-36.png)
+
+<P style="page-break-before: always">
+
+We can see that it is passed via a GET request and in cleartext. Exploring, we also discovered that we get a successful response when we pass only two of the values, corresponding to the new password we want to set. This means that the system does not verify that the user requesting the change knows the current password.
+
+![15](./prints/2023-10-27_15-37.png)
+
+<P style="page-break-before: always">
+
+By forging a new token based on a valid existing one, we can interact has if we were an existing user, even if the credentials are none existing in the service.
+
+![16](./prints/2023-10-27_16-11.png)
+
+As we can see, we are able to create comments in products as if we were a legitimate user.
+
+![17](./prints/2023-10-27_16-25.png)
+
+<P style="page-break-before: always">
+
 # Author
 
 David José Araújo Ferreira, 93444 - [davidaraujo@ua.pt](mailto:davidaraujo@ua.pt)

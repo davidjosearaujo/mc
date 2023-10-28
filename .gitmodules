@@ -13,3 +13,6 @@
 [submodule "AAS/P/aas-anomaly-iot-real-data-davidjosearaujo"]
 	path = AAS/P/aas-anomaly-iot-real-data-davidjosearaujo
 	url = git@github.com:detiuaveiro/aas-anomaly-iot-real-data-davidjosearaujo.git
+[submodule "SR/P/sr-vulnerable-api"]
+	path = SR/P/sr-vulnerable-api
+	url = git@github.com:davidjosearaujo/sr-vulnerable-api.git

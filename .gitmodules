@@ -16,3 +16,6 @@
 [submodule "SR/P/sr-vulnerable-api"]
 	path = SR/P/sr-vulnerable-api
 	url = git@github.com:davidjosearaujo/sr-vulnerable-api.git
+[submodule "AFSC/P/keyLogger"]
+	path = AFSC/P/keyLogger
+	url = git@github.com:diogoftm/keyLogger.git

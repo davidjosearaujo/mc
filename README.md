@@ -1,5 +1,5 @@
 # MC
 
-Entire collection of material produced during the Master course in Cybersecurity at the University of Aveiro
+The entire collection of material produced during the Master course in Cybersecurity at the University of Aveiro
 
-In addition to this pratical material, all my notes from theoretical classes can be found at my [GitBook]() collection
+In addition to these practical materials, all my notes from theoretical classes can be found at my [GitBook](https://davidjosearaujo.gitbook.io/apontamentos-mcs/v/mcs/) collection

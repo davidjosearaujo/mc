@@ -19,3 +19,6 @@
 [submodule "AFSC/P/keyLogger"]
 	path = AFSC/P/keyLogger
 	url = git@github.com:diogoftm/keyLogger.git
+[submodule "CA/P/d-rsa"]
+	path = CA/P/d-rsa
+	url = git@github.com:davidjosearaujo/d-rsa.git

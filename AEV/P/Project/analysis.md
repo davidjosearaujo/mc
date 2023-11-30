@@ -22,6 +22,12 @@ The search for weaknesses will target the following vulnerabilities:
 
 ### 4.2.13 - Path Confusion
 
+> *"... replace all the existing paths with paths that do not exist, and then examine the behavior and status code of the target."
+>
+>[OWASP](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/13-Test_for_Path_Confusion)
+
+Main techniques consist in path _fuzzing_ and _spidering_ the target in search for broken links.
+
 ### 4.5.1 - Directory Traversal File Include
 
 ### 4.6.10 - JWT

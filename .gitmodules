@@ -22,12 +22,3 @@
 [submodule "CA/P/d-rsa"]
 	path = CA/P/d-rsa
 	url = git@github.com:davidjosearaujo/d-rsa.git
-[submodule "AEV/P/Project/niltalk"]
-	path = AEV/P/Project/niltalk
-	url = https://github.com/knadh/niltalk.git
-[submodule "AEV/P/Project/gitness"]
-	path = AEV/P/Project/gitness
-	url = https://github.com/harness/gitness.git
-[submodule "AEV/P/Project/incubator-answer"]
-	path = AEV/P/Project/incubator-answer
-	url = https://github.com/apache/incubator-answer.git

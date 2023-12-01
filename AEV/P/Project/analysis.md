@@ -42,6 +42,10 @@ No matches were found fuzzing the application.
 
 By reading the documentation for this particular application tho, we learn that each chat room is given an auto-generated and unique id, which is used to create the URL path for that room. And being that each room is ephemeral and with a very limited timeout, exposed path are improbable to occur.
 
+<!--
+Test the /api endpoint
+-->
+
 ### 4.5.1 - Directory Traversal File Include
 
 > _"... enumerate all parts of the application that accept content from the user."_

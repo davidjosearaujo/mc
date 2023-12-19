@@ -22,3 +22,6 @@
 [submodule "CA/P/d-rsa"]
 	path = CA/P/d-rsa
 	url = git@github.com:davidjosearaujo/d-rsa.git
+[submodule "AEV/P/Lab04"]
+	path = AEV/P/Lab04
+	url = git@github.com:davidjosearaujo/aev-lab04.git

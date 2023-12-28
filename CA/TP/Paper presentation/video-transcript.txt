@@ -1,0 +1,92 @@
+!!SLIDE 1!!
+
+Esta apresentação foca-se no artigo intitulado … de Dezembro de 2017, da autoria de Martin Hellman. Este expõe parte da história que levou Hellman a receber o prémio Turing em 2015 e todo o trabalho por de trás das suas descobertas.
+
+O autor aproveita também para discutir o papel da criptografia nas guerras dos tempos modernos, fazendo referências ao seu livro A New Map for Relationships: Creating True Love at Home & Peace on the Planet, traçando um paralelo com o armamento Nuclear e em como este serve não como arma ofensiva mas como dissuasor, sendo que é aqui que o autor tem reservas sobre como a dissuasão é recebida pelos nossos adversários, e por nós próprios.
+
+!! SLIDE 2 !!
+
+Martin Hellman começa a história relembrando quando o National Institute of Standards and Technology (NIST), em 1975, propos o Data Encryption Standard (DES) para proteger dados confidenciais, e em como ele e Whitfield Diffie rapidamente se aperceberan de que a chave de 56-bits não seria suficientemente segura a longo prazo.
+Eles estimaram que já em 1975 um computador com um único chip seria já capaz de calcular todas as possibilidades de chave num periodo de tempo util, pelo que a dificuldade computacional já não seria um obstáculo. Também, a rápida evolução do poder computacional, tornaria este esforço cada vez mais eficiente.
+
+!! NEXT SLIDE !!
+
+Os investigadores tornaram públicas essas observação, mas o NIST insistia que os seus calculos não poderiam estar corretos e que as suas estimativas deveriam estar desfasadas da realidade em ordens de magnitude. Ao inicio, esta disputa não fez grande sentido para os investigadores, só mais tarde e que se apercebem que estariam, ainda que indirectamente, a batalhar não só com o NIST como com a Agência Nacional de Segurança, a NSA.
+Apesar de Diffie e Hellman angariarem grande apoio dos media de vários membros do Congresso em relação às dúvidas quanto à utilização do DES e a possibilidade da implementação de DES triplo como forma de colmatar as vulnerabilidades que haviam tornado públicas, todo este esforço foi sem sucesso. Assim, o DESseria utilizado ate 2002,  altura em que é substituído pelo Advanced Encryption Standard (AES).
+
+!! SLIDE 3 !!
+
+A relutância da NSA poderia dever-se ao facto de esta estar habituada a lidar com métodos de encriptação com chaves pequenas, mesmo o DES com a sua chave de 56-bit, já era grande quando comparadas com as soluções no mercados à altura, que poderiam ser facilmente quebradas e a um baixo custo, o que naturalmente era do interesse da agência.
+
+!! NEXT SLIDE !!
+
+A NSA acabaria por conceder que este custo adicional do DES poderia ser compensado com a redução da frequência com que as chaves eram trocadas. Já que eram mais complexas, dita a lógica que a sua integridade também pudesse ser mais duradoura. Não só isso, se a agência estivesse interessada em quebrar a encriptação um adversário que utiliza-se DES, se se assumisse que este iria manter as chaves durante mais tempo por pensar que as chaves eram mais duradouras, apesar do custo inicial de quebrar a chave, assim que isso fosse alcançado, a probabilidade de extrair informação durante uma janela de tempo muito maior seria possível.
+
+!! NEXT SLIDE !!
+
+Mas então colocar-se ia a questão: poderíamos antes utilizar chaves maiores sem perder a eficiência e aumentar a segurança perante adversário? O que eventualmente levaria a desenvolver o conceito de chaves públicas, começou por Diffie e Hellman explorarem o conceito de trapdoor cryptosystems ou TDCs. TDC consiste num criptosistema que possui uma backdoor, propositadamente colocada, e que permite a quem o criou, utiliza-lo para proteger informação sensível mas não permitir que este seja usado contra si próprio, uma vez que este saberá expor a informação protegida através da backdoor mesmo não conhecendo a chave original.
+Apesar de TDCs nunca terem sido colocadas em prática por Hellman e Deffie, foram extensivamente mencionados nas suas análises aos DES uma vez que estes descobriram aquilo que hoje sabemos serem vulnerabilidades na estrutura do DES.
+
+!! NEXT SLIDE !!
+
+Coincidentemente, na mesma altura, Ralph Merkle desenvolve o conceito de distribuição de chaves públicas, com a sua prova de conceito, os puzzles de Merkle. Mas não sabendo disto, Hellman e Deffie desenvolvem também o conceito de chaves digitais e o sistema que hoje conhecemos com o Diffie-Hellman Key Exchange com o objetivo de alcançar distribuição segura de chaves. Como o autor refere, ironicamente, a Diffie-Hellman Key Exchange acaba por se na verdade, uma implementação do sistema desenvolvido por Merkle.
+
+!! NEXT SLIDE !!
+
+No entanto, um criptosistema completamente funcional de chaves públicas só chegará a ser posto em prática com a publicação do paper que marca o nascimento do RSA, em 1978.
+
+!! SLIDE 4 !!
+
+A NSA no entanto mantinha reservas quanto a disseminação destas tecnologias. O autor chega até a fazer referência que pouco após o mesmo e Diffie terem chegado a realização de que o tema da segurança relativamente ao DES seria tanto político como tecnico, fora abordado pessoalmente por dois agentes da NSA sob o pretexto de que levantar problemas em relação a segurança do DES, poderia comprometer a segurança nacional dos Estados Unidos da América.
+Este acabou por ser um episódio que criou incerteza em Hellman, uma vez que a sua visão, do ponto de vista tecnológico era diametralmente oposta ao sugerido pelos agentes, e este acreditava ser do interesse de todos, e do interesse nacional, que este fosse um problema exposto de forma a ser colmatado e não mantido em silêncio.
+
+!! SLIDE 5 !!
+
+Hellman relata como decidiu que o seu dever seria o de tornar a falha publica, pois isso era a atitude responsavel. Mas mais tarde vê a arrepender-se, não pela decisão que tomou, mas por a ter tomado sob as motivações que hoje considera não terem sido a certas, e que em outra ocasião, poderiam facilmente ter levado a conclusões erradas.
+
+!! NEXT SLIDE !!
+
+Apesar de tudo, seria só a 7 de Julho de 1977, que a batalha de opiniões com a NSA encontraria o seu apogeu. Quando esta acusa o Institute of Electrical and Electronics Engineers (IEEE) de que estariam a violar a lei ao publicar as descobertas de Hellman e Diffie.
+O argumento seria o de que, ao tornar públicas as descobertas dos investigadores quanto a tecnologías de criptografía, estariam a infringir a limitação contra a exportação de armamento, uma vez que qualquer tecnologia criptográfica era, a data, classificada como um implemento de guerra, ficando sujeita a licença para a sua exportação, seja de forma implementada em dispositivos fisicos, como a sua componente teórica que pudesse levar à sua replicação e utilização por eventuais adversários.
+
+O IEEE viria a responder que a obrigatoriedade de obter a licença, caso fosse necessário, estaria ao encargo do autor, que neste caso seria Diffie e Hellman, assim como a Universidade de Stanford. Isto poderia levar a um gravoso caso legal se o Governo Federal optasse por adoptar a posição da NSA e entrar em disputa com os autores, o que poderia levar a multas avultadas ou ate mesmo tempo de prisão para Diffie e Hellman.
+
+!! NEXT SLIDE !!
+
+Todo este processo legal no entando, não viria a ter apenas consequências para Diffie e Hellman. Á altura, tanto Ralph Merkle com Stephen Pohlig era, ainda estudantes de doutoramento mas já com contribuições para papers também relacionados com o mesmo tema, e Hellman pretendia que os mesmo apresentassem os seus papers no simposio do IEEE, que se realizaria na mesma altura em que decorriam os processos legais. No entanto, isto poderia ter implicações drásticas no percurso profissional e académico dos mesmos.
+Tendo isto em conta, entre Hellman e os estudantes, ficou combinado que seria Hellman a apresentar os artigos, fazendo-se apenas acompanhar pelos estudantes durante as apresentações, de forma a servir como uma especie de escudo sem ao mesmo tempo sonegar os devidos créditos a Merkle e Pohlig. Todo este aparato viria na verdade, a dar ainda mais relevo aos seus trabalhos, uma vez que ficariam vistos como uma espécie de mártires ao altar da ciência, pela mão da NSA.
+
+!! NEXT SLIDE !!
+
+Este primeiro impacto nas crypto wars provou que investigadores independentes devem ser livres de publicar as suas descobertas, livres de opressão ou perseguição. Mas seria apenas em 1990 que passos concretos seriam dados com o Congresso a requisitar que o Conselho Nacional de Investigação iniciasse um estudo quando a políticas relacionadas com a criptografia. O resultado disto seria um alívio quanto a leis anteriores que limitavam fortemente o desenvolvimento e partilha de algoritmos avançados de encriptação, o resultado, um mercado com ofertas mais seguras entre os produtos comerciais que agora poderiam utilizar estas tecnologias de forma livre e segura.
+
+!! SLIDE 6 !!
+
+Já os tempos que correm, falar de dissuasão nuclear tornou-se tão mainstream que existe a tendência de olhar para a questão tecnológica, particularmente a criptografiac, com a mesma perspectiva.
+
+Hellman levanta um ponto pertinente neste artigo, quanto ao papel que o pensamento lógico, ou falta deste, ocupa na eficiência da dissuasão em si mesma e como isso poderá afetar o balanço de forças a nivel global.
+
+!! SLIDE 7 !!
+
+De acordo com Hellman, ele faz a observação que, para a dissuasão funcionar, o adversário necessita de ser racional o suficiente para ser averso ao risco que a intimidação promete, mas nós próprios precisamos de ser irracionais ao ponto de não sermos dissuadidos perante o risco de ameaças por parte dos nossos adversários. Sendo assim, qual é o papel do pensamento lógico na questão da dissuasão?
+
+!! NEXT SLIDE !!
+
+Hellman também faz referência à falta de definição quanto ao conceito de dissuasão em si. Significará que armas nucleares são apenas necessárias para dissuadir ataques nucleares de adversário? Se o for, porque usar este tipo de dissuasão quando o risco é muito menor?
+E os nossos líderes, possuindo este poder, possuem também as capacidades cognitivas para tomar a decisão de usar este tipo de dissuasão e não outro?
+
+!! NEXT SLIDE !!
+
+Hellman refere a falta de informação e de estudos quanto às consequências da dissuasão nuclear no futuro a longo prazo, esse vazio de informação é algo que o motivou a aplicar análise de risco à dissuasão criptografica e as suas consequências.
+Quais seriam as consequências numa era pós-quantica, e porque existem ainda poucas soluções que possam colmatar as deficiências que computação quântica poderá expor em tecnologias como chaves RSA e Diffie-Hellman Key Exchange, uma vez que ambas se baseiam em dificuldade computacional, como a faturização de numeros primos e logaritmos discretos, respectivamente.
+
+Hellman argumenta que sería prudente colocar desde ja sistemas que possam servir como backup a sistemas de troca de chaves e às próprias chaves digitais. Dá a o exemplo de um sistema que produzisse duas chaves que pudessem ser combinadas em hash ou numa operação de OR exclusivo, em que uma seria produzida por um serviço de chaves público e outra por um sistema de backup, isto iria providenciar segurança, mesmo que um dos sitemas fosse comprometido.
+Um exemplo de um sistema de backup seria um serviço centralizado que partilha-se uma chave mestra com os seus utilizadores, e distribuísse chaves de sessão conforme solicitado pelos mesmos.
+
+!! NEXT SLIDE !!
+
+Hellman prossegue no artigo, refletindo sobre o seu crescimento pessoal em relação ao uso da lógica na sua vida. Inicialmente, ele reconhece ter utilizado a lógica de maneira inadequada, usando-a como uma arma de argumentação, o que teve um impacto negativo nos seus relacionamentos pessoais. A nível acadêmico, Hellman confrontou desafios significativos relacionados com o teorema de Godel e o conjunto infinito não contável dos números reais. Essa experiência levou Hellman a uma realização mais profunda de que a lógica, embora poderosa, é inerentemente incompleta, não sendo a única abordagem para compreender o mundo.
+
+Hellman termina este artigo argumentando que a procura por algoritmos sofisticados e avanços tecnológicos deve ser equilibrada pela consciência das limitações da lógica. Afinal, será a humanidade capaz de reconhecer as limitações da lógica a tempo de enfrentar os desafios globais? De que servirão algoritmos complexos se não estiver cá ninguém para os usar?
+
+!! END !!

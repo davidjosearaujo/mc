@@ -1,0 +1,31 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.define "target" do |target|
+    target.vm.box = "boxomatic/debian-12-mate"
+
+    # Skip updating virtual guest additions
+    target.vbguest.auto_update = false if Vagrant.has_plugin?("vagrant-vbguest")
+
+    # Provision VM with malware source code in a hidden folder
+    target.vm.provision "file", 
+      source: "./source/",
+      destination: "./.source"
+
+    ## Copying the firefox-explorer directory
+    target.vm.provision "file",
+      source: "./deploy.sh",
+      destination: "./deploy.sh"
+
+    # Ensure dependencies
+    ## - Firefox
+    ## - Pip
+    target.vm.provision "shell",
+      inline: "sudo apt update && \
+        sudo apt install python3-pip firefox-esr -y"
+    
+    # Deploy malware
+    target.vm.provision "shell",
+      inline: "chmod +x deploy.sh"
+    
+  end
+end

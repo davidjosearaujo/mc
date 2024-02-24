@@ -4,4 +4,11 @@ Vagrant.configure("2") do |config|
   if ENV['FOLDER'] != nil
     config.vm.provision "file", source: ENV['FOLDER'], destination: "/home/vagrant/imported"
   end
+
+  if ENV['HEADLESS'] == "YES"
+    config.vm.provider "virtualbox" do |v|
+      v.gui = false
+    end
+  end
+
 end

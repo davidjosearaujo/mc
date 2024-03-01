@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/layout_drawer" n1:background="#ffffffff" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/topBar" n1:background="@color/barcolor" n1:layout_width="fill_parent" n1:layout_height="52.0dip">
+        <TextView n1:textSize="18.0dip" n1:textStyle="bold" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dip" n1:text="@string/app_name" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.ogaclejapan.smarttablayout.SmartTabLayout n1:id="@id/tabLayout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_below="@id/topBar" n2:stl_clickable="true" n2:stl_defaultTabBackground="@android:color/transparent" n2:stl_defaultTabTextAllCaps="false" n2:stl_defaultTabTextColor="#ff676767" n2:stl_defaultTabTextHorizontalPadding="16.0dip" n2:stl_defaultTabTextMinWidth="0.0dip" n2:stl_defaultTabTextSize="14.0dip" n2:stl_distributeEvenly="false" n2:stl_dividerThickness="0.0dip" n2:stl_drawDecorationAfterTab="false" n2:stl_indicatorAlwaysInCenter="false" n2:stl_indicatorColor="@color/barcolor" n2:stl_indicatorCornerRadius="0.0dip" n2:stl_indicatorGravity="bottom" n2:stl_indicatorInFront="false" n2:stl_indicatorInterpolation="smart" n2:stl_indicatorThickness="2.5dip" n2:stl_indicatorWidth="auto" n2:stl_indicatorWithoutPadding="false" n2:stl_overlineThickness="0.0dip" n2:stl_titleOffset="24.0dip" n2:stl_underlineColor="#ffd9d9d9" n2:stl_underlineThickness="0.100000024dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <android.support.v4.view.ViewPager n1:id="@id/viewPager" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/tabLayout" />
+</RelativeLayout>

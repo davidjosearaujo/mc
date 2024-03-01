@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HD WallPaper</string>
+    <string name="facebook_app_id">100633827447262</string>
+    <string name="fb_login_protocol_scheme">fb100633827447262</string>
+    <string name="load_more_hint">Loading</string>
+    <string name="storage_permission_hint">Unauthorized, please enter the settings for the software to open storage authority</string>
+    <string name="text_save_success">Download completed</string>
+    <string name="text_save_wallpaper">Download</string>
+    <string name="text_set_success">Set completed</string>
+    <string name="text_set_wallpaper">Set as wallpaper</string>
+</resources>

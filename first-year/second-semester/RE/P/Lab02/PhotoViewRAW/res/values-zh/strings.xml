@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">高清壁纸</string>
+    <string name="facebook_app_id">100633827447262</string>
+    <string name="fb_login_protocol_scheme">fb100633827447262</string>
+    <string name="load_more_hint">加载中</string>
+    <string name="storage_permission_hint">未授权，请进入设置给软件开启存储权限</string>
+    <string name="text_save_success">下载完成</string>
+    <string name="text_save_wallpaper">下载</string>
+    <string name="text_set_success">设置完成</string>
+    <string name="text_set_wallpaper">设置壁纸</string>
+</resources>

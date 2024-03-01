@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_25 (Oracle Corporation)
+
+Name: AndroidManifest.xml
+SHA1-Digest: ghpo9l3cYouvN7ReFbPNcCJTChg=
+
+Name: lib/x86/librrnad.so
+SHA1-Digest: t7mLBP2K97bjW0GCtlO98yQgUes=
+
+Name: assets/front1.png
+SHA1-Digest: paxNhFnFOV0xiWSw8n6SwxAMbZk=
+
+Name: assets/kx
+SHA1-Digest: zCD9jdOON/7Wp7iP9midHiLhbnE=
+
+Name: assets/point_selected.png
+SHA1-Digest: JWrhJPZGhbiph+swIyEO7OqSAmA=
+
+Name: assets/float_number.png
+SHA1-Digest: UCheaXb505luPQ86hiOMzxFCStI=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: lib/mips/librrnad.so
+SHA1-Digest: Y78pNyFgaxi9ZIi9rumKoKaWILw=
+
+Name: assets/tab_but_normal.png
+SHA1-Digest: dn3/PCaI+cPU+xZbPGzp0xDgMlo=
+
+Name: assets/cancel.png
+SHA1-Digest: mBqTOQ04QBuRpp9Hl8PIIuBQf6c=
+
+Name: assets/tab_but_selected.png
+SHA1-Digest: 0qov9jnjEMV0MQSDFI+/AUSw1dU=
+
+Name: res/layout/notification.xml
+SHA1-Digest: E3BkgfqbzJ6oiGOkyT2eiJKSrvA=
+
+Name: assets/eWQcTz.jar
+SHA1-Digest: L6Z35lDgov6VurTG54Yu9IRrhTQ=
+
+Name: assets/front_bg.9.png
+SHA1-Digest: SF8S7T7t9gDV1s6ijzoqXQ/bHXA=
+
+Name: assets/ic_info.png
+SHA1-Digest: xXMSHZR1iYf4og1KYtcjGkk6dI4=
+
+Name: lib/armeabi/librrnad.so
+SHA1-Digest: 1DXlpD3hbe2DJkEJIzcEBgyppf8=
+
+Name: assets/float_close.png
+SHA1-Digest: iyb+rEtxmFwlRYQDN+qerDhr8PM=
+
+Name: assets/img_bg.png
+SHA1-Digest: s4dWu1DlGWdbLsK0He6PnmhwfEw=
+
+Name: lib/armeabi-v7a/librrnad.so
+SHA1-Digest: B8sPMTpCR3aZxA6JhJ/2l1x1n6o=
+
+Name: assets/front0.png
+SHA1-Digest: FXgYq+kVa8tFSmXbeRGb5L+mmS8=
+
+Name: res/xml/test.xml
+SHA1-Digest: aY2R6rxelfjTL9F95sQWiViEqto=
+
+Name: resources.arsc
+SHA1-Digest: oCaaFfieIP1G7pRC9xAXZbbBZZk=
+
+Name: assets/insert_bg.png
+SHA1-Digest: MBGbkHYBGeyhCMsjdpPsi3uLirw=
+
+Name: assets/point_normal.png
+SHA1-Digest: f8btEMKkjiGezaoH3pk89XqitQg=
+
+Name: classes.dex
+SHA1-Digest: JDDkDvpWVMdL6EbUJbeNDgQJEHM=
+

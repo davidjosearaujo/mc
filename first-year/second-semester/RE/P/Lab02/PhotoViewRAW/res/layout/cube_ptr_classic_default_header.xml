@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="60.0dip">
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/ptr_classic_header_rotate_view_header_text" n1:layout_width="150.0dip" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+            <TextView n1:textSize="12.0sp" n1:textColor="#ff666666" n1:id="@id/ptr_classic_header_rotate_view_header_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <TextView n1:textSize="10.0sp" n1:textColor="#ff999999" n1:id="@id/ptr_classic_header_rotate_view_header_last_update" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" n1:layout_toLeftOf="@id/ptr_classic_header_rotate_view_header_text" n1:layout_centerVertical="true">
+            <ImageView n1:layout_gravity="center" n1:id="@id/ptr_classic_header_rotate_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ptr_rotate_arrow" />
+            <ProgressBar n1:layout_gravity="center" n1:id="@id/ptr_classic_header_rotate_view_progressbar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: Uoyv0Lvp7sufzWZCuhgfMmMfxNU=
+SHA1-Digest-Manifest: /nsw/aMzHONLAjrnKi7+vLc8gzk=
+Created-By: 1.8.0_25 (Oracle Corporation)
+
+Name: AndroidManifest.xml
+SHA1-Digest: Ycg6ueTT8N9z2X3ONpai6LKlC1U=
+
+Name: lib/x86/librrnad.so
+SHA1-Digest: PTMAytCJZydFhVXn6HFlcZF26rg=
+
+Name: assets/front1.png
+SHA1-Digest: ZxRS1VAhqIYdkPpUOQ5JDx1uFnA=
+
+Name: assets/kx
+SHA1-Digest: LST06Qd1ietWLNzeVdJ+GgMFEaM=
+
+Name: assets/point_selected.png
+SHA1-Digest: DqWmGn7+nwd5mHmALCEpES+a7Bs=
+
+Name: assets/float_number.png
+SHA1-Digest: Y6R8NvDfG/dOBxg0SffclVnODcc=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: 605IG+bS14aYhmTUPR6WpIwHELU=
+
+Name: lib/mips/librrnad.so
+SHA1-Digest: EzJLgVKCV8dd3ZwnaTUtVCj82QQ=
+
+Name: assets/tab_but_normal.png
+SHA1-Digest: 0CGGgm4xDjYK6k9xT8OGFXe/eAg=
+
+Name: assets/cancel.png
+SHA1-Digest: QmHMrLzPJldmsEIYgcISxMhWFzA=
+
+Name: assets/tab_but_selected.png
+SHA1-Digest: 8eY5TvGz+RyM30m2sczR+p2AJMc=
+
+Name: res/layout/notification.xml
+SHA1-Digest: JRbZkXCaKReMpwgCJzlgOpzmV/w=
+
+Name: assets/eWQcTz.jar
+SHA1-Digest: hV1KwPW+GMQZx/bI8POsHmiN2x4=
+
+Name: assets/front_bg.9.png
+SHA1-Digest: FagSlwu+TuXgndCfdSsDJxXDuJs=
+
+Name: assets/ic_info.png
+SHA1-Digest: 8u20M1UCE5EYzZSrs9IguVSXTTg=
+
+Name: lib/armeabi/librrnad.so
+SHA1-Digest: Rv1Cixxh7dwCC0NGFiQPqj2o/GE=
+
+Name: assets/float_close.png
+SHA1-Digest: IFKPkQ1wheFSUP678+aGZivIEyM=
+
+Name: assets/img_bg.png
+SHA1-Digest: qpMm1evM3+pEaXSHy1mxz6cWyjw=
+
+Name: lib/armeabi-v7a/librrnad.so
+SHA1-Digest: u6mpF54t5T1beX0AxVg5JY0laI4=
+
+Name: assets/front0.png
+SHA1-Digest: DF4vdLHkxxD6ct+ns+ZqgNf7YZU=
+
+Name: res/xml/test.xml
+SHA1-Digest: e0A41BltPoOapqY6LLuslcGX4Z8=
+
+Name: resources.arsc
+SHA1-Digest: +zVOqI8Uqr5zKNfYAokmT6+yLZ4=
+
+Name: assets/insert_bg.png
+SHA1-Digest: Uny7qn8UUhJcG9Udeafq5TbiUAQ=
+
+Name: assets/point_normal.png
+SHA1-Digest: xJI0Zs40yg4fhVA1LVjUCrGMSFw=
+
+Name: classes.dex
+SHA1-Digest: CFSTXhTZFzoC3IRKfzPxSHTRFW8=
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="#ff000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <uk.co.senab.photoview.PhotoView n1:id="@id/img_bigPic" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@mipmap/ic_launcher" n1:scaleType="fitXY" />
+    <ProgressBar n1:layout_gravity="center" n1:id="@id/progress_bar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyleSmall" />
+</FrameLayout>

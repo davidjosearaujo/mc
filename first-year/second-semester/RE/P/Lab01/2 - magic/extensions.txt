@@ -1,5 +1,0 @@
-3 -> gzip
-4 -> GIF
-5 -> PDF
-6 -> ELF
-7 -> TIFF

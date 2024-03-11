@@ -28,3 +28,6 @@
 [submodule "first-year/second-semester/IAA/P/IdP-client"]
 	path = first-year/second-semester/IAA/P/IdP-client
 	url = git@github.com:davidjosearaujo/IdP-client.git
+[submodule "first-year/second-semester/RE/P/re-android-reversing"]
+	path = first-year/second-semester/RE/P/re-android-reversing
+	url = git@github.com:davidjosearaujo/re-android-reversing.git

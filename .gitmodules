@@ -31,3 +31,6 @@
 [submodule "first-year/second-semester/RE/P/re-android-reversing"]
 	path = first-year/second-semester/RE/P/re-android-reversing
 	url = git@github.com:davidjosearaujo/re-android-reversing.git
+[submodule "first-year/second-semester/RE/P/re-sus-deb-package"]
+	path = first-year/second-semester/RE/P/re-sus-deb-package
+	url = git@github.com:davidjosearaujo/re-sus-deb-package.git

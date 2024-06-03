@@ -34,3 +34,6 @@
 [submodule "first-year/second-semester/RE/P/re-intercept-board-comms"]
 	path = first-year/second-semester/RE/P/re-intercept-board-comms
 	url = git@github.com:davidjosearaujo/re-intercept-board-comms.git
+[submodule "first-year/second-semester/IAA/P/Project"]
+	path = first-year/second-semester/IAA/P/Project
+	url = git@github.com:davidjosearaujo/iaa-idp-client.git

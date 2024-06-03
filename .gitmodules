@@ -34,9 +34,6 @@
 [submodule "first-year/second-semester/RE/P/re-sus-deb-package"]
 	path = first-year/second-semester/RE/P/re-sus-deb-package
 	url = git@github.com:davidjosearaujo/re-sus-deb-package.git
-[submodule "first-year/second-semester/AES/P/Project 2"]
-	path = first-year/second-semester/AES/P/Project 2
-	url = git@github.com:davidjosearaujo/container-management-tool.git
 [submodule "first-year/second-semester/RE/P/re-intercept-board-comms"]
 	path = first-year/second-semester/RE/P/re-intercept-board-comms
 	url = git@github.com:davidjosearaujo/re-intercept-board-comms.git

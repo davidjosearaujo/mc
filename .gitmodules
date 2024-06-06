@@ -25,18 +25,15 @@
 [submodule "AEV/P/Lab04"]
 	path = AEV/P/Lab04
 	url = git@github.com:davidjosearaujo/aev-lab04.git
-[submodule "first-year/second-semester/IAA/P/IdP-client"]
-	path = first-year/second-semester/IAA/P/IdP-client
-	url = git@github.com:davidjosearaujo/IdP-client.git
 [submodule "first-year/second-semester/RE/P/re-android-reversing"]
 	path = first-year/second-semester/RE/P/re-android-reversing
 	url = git@github.com:davidjosearaujo/re-android-reversing.git
 [submodule "first-year/second-semester/RE/P/re-sus-deb-package"]
 	path = first-year/second-semester/RE/P/re-sus-deb-package
 	url = git@github.com:davidjosearaujo/re-sus-deb-package.git
-[submodule "first-year/second-semester/AES/P/Project 2"]
-	path = first-year/second-semester/AES/P/Project 2
-	url = git@github.com:davidjosearaujo/container-management-tool.git
 [submodule "first-year/second-semester/RE/P/re-intercept-board-comms"]
 	path = first-year/second-semester/RE/P/re-intercept-board-comms
 	url = git@github.com:davidjosearaujo/re-intercept-board-comms.git
+[submodule "first-year/second-semester/IAA/P/Project"]
+	path = first-year/second-semester/IAA/P/Project
+	url = git@github.com:davidjosearaujo/iaa-idp-client.git

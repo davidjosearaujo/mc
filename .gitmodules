@@ -37,3 +37,6 @@
 [submodule "first-year/second-semester/IAA/P/Project"]
 	path = first-year/second-semester/IAA/P/Project
 	url = git@github.com:davidjosearaujo/iaa-idp-client.git
+[submodule "second-year/dissertation-project"]
+	path = second-year/dissertation-project
+	url = git@github.com:davidjosearaujo/nexus-iwf.git

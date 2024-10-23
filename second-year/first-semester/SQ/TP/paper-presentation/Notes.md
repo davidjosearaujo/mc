@@ -1,3 +1,5 @@
+# ChatCPT Summary
+In this paper, they discuss an approach to QKD that enhances security by introducing decoy states. Decoy states are used to detect and mitigate potential eavesdropping by an adversary. This protocol helps in detecting photon-number splitting (PNS) attacks and improves the key generation rate by ensuring that multi-photon pulses can be distinguished from single-photon pulses, which are essential in secure key exchange. The use of decoy states optimizes the balance between security and efficiency in QKD systems.
 # Abstract
 ## Problem
 >[[2009 - Ali - Quantum Key Distribution Using Decoy State Protocol.pdf|Unfortunately, for real-life experimental set-ups, which mainly based on faint laser pulses, the occasional production of multi-photons and channel loss make it possible for sophisticated eavesdroppers to launch various subtle eavesdropping attacks including the Photon Number Splitting (PNS) attack]]

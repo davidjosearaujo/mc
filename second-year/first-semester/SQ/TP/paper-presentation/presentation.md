@@ -14,7 +14,7 @@ style: |
 
 ## Ali, S., Saharudin, S. & Wahiddin, M. R. (2009). **Quantum Key Distribution Using Decoy State Protocol**. American Journal of Engineering and Applied Sciences, 2(4), 694-698.
 
-### Quantum Security Course - _Paper Presentatin_
+### Quantum Security Course - _Paper Presentation_ - **PRELIMINARY**
 
 David Araújo (93444)
 
@@ -30,13 +30,29 @@ David Araújo (93444)
 
 Real-life QKD experiment rely on **faint lase pulses** which leads easier **multi-photon production** and **channel loss**.
 
+<!--
+SINGLE PHOTON PRODUCTION IS HARD
+- In real-world Quantum Key Distribution (QKD) systems, weak laser pulses are used to approximate single-photon emissions.
+
+MULTI-PHOTON PRODUCTION
+- These weak pulses occasionally produce more than one photon.
+
+CHANNEL LOSS
+- Due to the nature of the transmission channel, some photons are lost or absorbed, leading to what’s called "channel loss".
+- When there’s channel loss, the receiver expects that only a fraction of the transmitted photons will arrive, as some are lost naturally.
+-->
+
 Vulnerable to **eavesdropping** via **_Photon Number Splitting (PNS)_** attacks.
+
+<!--
+- Multi-photon pulses are vulnerable to Photon-Number Splitting (PNS) attacks, where an eavesdropper can intercept and retain one of the extra photons without being detected.
+-->
 
 ---
 
 # Proposed Approach
 
-**_Weak decoy_** and **_vaccum state_** states.
+**_Weak decoy_** and **_vacuum state_** states.
 
 <!--
 In standard QKD, weak coherent pulses (WCPs) are used, but these can sometimes contain more than one photon, making them vulnerable to attacks. The decoy-state method helps detect and prevent such attacks by introducing decoy pulses, which are different from the normal signal pulses.
@@ -57,6 +73,12 @@ The Decoy State Protocol introduces decoy states with different intensities (pho
 # Results & Impact
 
 Implementation via a polarization independent **VOA (variable optical attenuator**).
+
+<!--
+The VOA allows the sender (Alice) to dynamically adjust the optical power of each pulse to create multiple intensity levels: signal states and decoy states.
+
+These decoy states must be generated with carefully controlled lower intensities compared to the signal states. By varying the pulse intensities accurately with the VOA, Alice can randomize the transmission, making it difficult for an eavesdropper to know whether a given pulse is a signal or a decoy.
+-->
 
 Improved performance with **higher key generation rate** and **longer distance** transmission.
 

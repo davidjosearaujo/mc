@@ -18,12 +18,12 @@ style: |
 
 David Araújo (93444)
 
-<!-- footer: 25th of April 2024 -->
+<!-- footer: 25th of October 2024 -->
 
 ---
 
 <!-- paginate: true -->
-<!-- header: __Quantum Key Distribution Using Decoy State Protocol__ | Quantum Security Course - _Paper Presentation_ -->
+<!-- header: __Quantum Key Distribution Using Decoy State Protocol__ | Quantum Security Course - _Paper Presentation_ - __PRELIMINARY__-->
 <!-- footer: '![height:50px](./images/deti-logo.png) ![height:50px](./images/Marca-UA-Complementar-PRETO.png)' -->
 
 # Problem Statement
@@ -32,7 +32,7 @@ Real-life QKD experiment rely on **faint lase pulses** which leads easier **mult
 
 <!--
 SINGLE PHOTON PRODUCTION IS HARD
-- In real-world Quantum Key Distribution (QKD) systems, weak laser pulses are used to approximate single-photon emissions.
+- In real-world Quantum Key Distribution (QKD) systems, weak laser pulses (weak coherent pulses) are used to approximate single-photon emissions.
 
 MULTI-PHOTON PRODUCTION
 - These weak pulses occasionally produce more than one photon.
@@ -52,7 +52,7 @@ Vulnerable to **eavesdropping** via **_Photon Number Splitting (PNS)_** attacks.
 
 # Proposed Approach
 
-**_Weak decoy_** and **_vacuum state_** states.
+**_Weak decoy_** and **_vacuum_** states.
 
 <!--
 In standard QKD, weak coherent pulses (WCPs) are used, but these can sometimes contain more than one photon, making them vulnerable to attacks. The decoy-state method helps detect and prevent such attacks by introducing decoy pulses, which are different from the normal signal pulses.
@@ -72,7 +72,7 @@ The Decoy State Protocol introduces decoy states with different intensities (pho
 
 # Results & Impact
 
-Implementation via a polarization independent **VOA (variable optical attenuator**).
+Implementation via a polarization independent **VOA (variable optical attenuator**) over a 25km telecom fiber.
 
 <!--
 The VOA allows the sender (Alice) to dynamically adjust the optical power of each pulse to create multiple intensity levels: signal states and decoy states.

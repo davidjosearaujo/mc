@@ -36,16 +36,37 @@ Problem Statement:
 
 # Context and Background
 
-Quantum  Key  Distribution  (QKD)  can help two remote parties to set up the secure key by **non-cloning  theorem**.
+<div class="columns">
 
+<div>
+
+Quantum Key Distribution (QKD) can help two remote parties to set up the secure key by **non-cloning theorem**.
+
+This ensures that these **states cannot be perfectly copied**, providing a layer of security against eavesdroppers.
+
+</div>
+
+<div>
+
+![BB84](./images/BB84-protocol-basic-scheme.png)
+
+</div>
+
+</div>
 
 ---
 
 # Threats and Limitations
 
+In a Photon-Number Splitting (PNS) attack, an eavesdropper (Eve) targets multi-photon pulses.
+
+These can be split without disturbing the transmission, allowing Eve to intercept and retain one or more photons while letting the rest pass to Bob undetected.
+
 ---
 
 # Motivation for Decoy States
+
+Hwang specifically proposed to use a decoy state with an average number of photon of order 1.
 
 ---
 

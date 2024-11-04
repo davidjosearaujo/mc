@@ -66,24 +66,9 @@ These can be split without disturbing the transmission, allowing Eve to intercep
 
 # Motivation for Decoy States
 
-Hwang specifically proposed to use a decoy pulses that are **intentionally designed to have an intensity similar to single-photon states** but with slight variability.
-
-<!--
-By doing so, the system can detect discrepancies in photon statistics that would indicate a Photon-Number Splitting (PNS) attack. This strategy helps differentiate genuine signal states from decoy states, ensuring that any eavesdropping attempts are revealed through inconsistencies in detection rates.
--->
+Using decoy pulses that are **intentionally designed to have an intensity similar to single-photon states** but with slight variability.
 
 The decoy states help detect and mitigate PNS attacks by **analyzing discrepancies in photon detection rates**, while the GLLP security proof **ensures that the overall system remains robust** against potential vulnerabilities in realistic settings.
-
-<!--
-The decoy states help detect and mitigate PNS attacks by analyzing discrepancies in photon detection rates, while the GLLP security proof ensures that the overall system remains robust against potential vulnerabilities in realistic settings. This combination improves both the security level and the key generation rate of QKD systems.
-
-Entanglement Distillation Approach: This is a method used to strengthen entangled quantum states shared between two parties. By processing noisy or partially entangled states, Alice and Bob can create a smaller set of high-fidelity entangled pairs, boosting the security and reliability of their key exchange.
-
-GLLP: The GLLP framework extends QKD security analysis to practical systems that use weak coherent states instead of ideal single-photon sources. It accounts for the imperfections in real-world implementations and provides a security proof that considers multi-photon emissions and realistic device imperfections.
--->
-
-
-
 
 ---
 
@@ -112,25 +97,81 @@ $$R \geq q \left\{ Q_\mu f(E_{mu}) H_2 (E_{mu}) + Q_1 [ 1 - H_2 (e_1) ] \right\}
 ---
 
 # Real-life Implementation
+<div class="columns">
+
+<div>
+
+The prototype QKD system involves Bob sending frames of **624 NP pulses with a 200 ns interval between each pulse**, ensuring that the entire frame returns to Bob before the next is sent to avoid Rayleigh scattering.
+
+</div>
+
+<div>
+
+The QKD system uses phase-shift keying (PSK) to encode information in the phase difference between two pulses sent along different paths with varying delays and phase shifts.
+
+<!-- The QKD system uses a phase-shift keying (PSK) technique, where information is encoded in the phase difference between two pulses. These pulses are initially identical but are separated into two paths: a short arm and a long arm. The long arm includes a phase modulator and a delay line, which introduces a controlled phase shift and time delay to one of the pulses.
+
+Both pulses are then recombined at a 50/50 beam splitter (BS) and sent to Alice. The phase difference between the two pulses carries the encrypted key information. -->
+
+</div>
+
+</div>
+
 
 ---
 
 # Detection Mechanism
 
+1. **Decoy Intensity Modulator (IM)**: Allows all incoming pulses to pass through without attenuation by default
+
+2. **Frame Synchronization**: The first of a frame of a pulses sent from Bob, triggers the Decoy Generator.
+
+<div class="columns">
+
+<div>
+
+3. **Pulse Attenuation**: After a delay, the Decoy Generator dynamically attenuates each pulse. Some to the intensity of signal states, others to the intensity of decoy states.
+
+</div>
+
+<div>
+
+![](./images/Experimental-setup.png)
+
+</div>
+
+</div>
+
 ---
 
-# Mathematical/Algorithmic Framework
+# Results
 
----
 
-# Key Findings
+<div class="columns">
+
+<div>
+
+**Intensities chosen** for the signals and weak states: _μ = 0.55, v = 0.152_
+
+**Numbers of pulses used** as signal, weak decoy and vacuum state are:
+
+$$ N_\mu = 0.645N$$
+$$ N_v = 0.203N$$
+$$ N_0 = 0.162N$$
+
+</div>
+
+<div>
+
+![](./images/tables.png)
+
+Total number of pulses sent _N = 105Mbit_
+
+</div>
+
+</div>
 
 ---
 
 # Comparative Analysis
-
----
-
-# Practical Implications
-
 

@@ -169,7 +169,7 @@ $$ \mu = 0.55; \space v = 0.152 $$
 
 **Numbers of pulses used** as signal, weak decoy and vacuum states are:
 
-$$ N\_\mu = 0.645N ;\space N_v = 0.203N ;\space N_0 = 0.162N$$
+$$ N_\mu = 0.645N ;\space N_v = 0.203N ;\space N_0 = 0.162N$$
 
 **Total number of pulses sent** by Alice:
 $$ N = 105Mbit $$
@@ -202,7 +202,7 @@ The experimental results listed in Table 1 are the input for Eq. 1-4, whose outp
 
 <div>
 
-$$ R^L= 6.2931\*10^{-4} $$
+$$ R^L= 6.2931*10^{-4} $$
 
 $$ L = NR $$
 
@@ -210,7 +210,7 @@ A final key length of _66 kbit_ is found.
 
 Even with a conservative estimation for a confidence within 10 standard deviations:
 
-$$ R^L \approx \frac{R\_{perfect}}{4} $$
+$$ R^L \approx \frac{R_{perfect}}{4} $$
 
 This hints that **small data sizes** and **few decoy states** are sufficient!
 

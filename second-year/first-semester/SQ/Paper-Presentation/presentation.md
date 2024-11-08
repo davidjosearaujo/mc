@@ -72,7 +72,7 @@ These can be split without disturbing the transmission, allowing Eve to intercep
 
 These are pulses that are **intentionally designed to have an intensity similar to single-photon states** but with slight variability.
 
-**Signal states** will carry most of the secret bits, while **weak and Vacuum states** are for detecting eavesdropping.
+**Signal states** will carry most of the secret bits, while **weak and vacuum states** are for detecting eavesdropping.
 
 The decoy states help detect and mitigate PNS attacks by **analyzing discrepancies in photon detection rates**, while the GLLP security proof **ensures that the overall system remains robust** against potential vulnerabilities in realistic settings.
 
@@ -247,10 +247,17 @@ With simple modifications to commercial QKD systems, decoy QKD allows **high key
 <!--
 1. Question: How does the introduction of decoy states impact the overall key generation rate in QKD systems?
 
-Response: The use of decoy states helps improve the key generation rate by allowing Alice and Bob to better estimate the channel characteristics and detect potential eavesdropping more accurately. By comparing the gains and error rates of signal and decoy states, they can securely maximize the use of single-photon transmissions, leading to a more efficient and higher secure key rate. This ensures that even in practical conditions with channel losses, a substantial key rate can still be achieved​
+Response:
+   - Better estimate the channel characteristics and detect potential eavesdropping more accurately.
+   - By comparing the gains and error rates of signal and decoy states, they can securely maximize the use of single-photon transmissions, leading to a more efficient and higher secure key rate.
+   - This ensures that even in practical conditions with channel losses, a substantial key rate can still be achieved​
 
 
 2. Question: What are the main limitations observed in the implementation of the decoy state protocol in your experiment?
 
-Response: The main limitations include the finite data size and the necessity for precise calibration of sources and detectors. In the experiment, while the weak + vacuum protocol significantly improved key generation rate and distance, statistical fluctuations due to limited data size reduced the key rate below the theoretical maximum. Additionally, ensuring that the variable optical attenuator (VOA) accurately attenuates signals without compromising polarization is crucial, as any artifact or misalignment can impact security​
+Response: 
+   - Finite data size 
+   - Necessity for precise calibration of sources and detectors. 
+   - Statistical fluctuations due to limited data size reduced the key rate below the theoretical maximum. 
+   - Ensuring that the variable optical attenuator (VOA) accurately attenuates signals without compromising polarization is crucial, as any artifact or misalignment can impact security​
 -->

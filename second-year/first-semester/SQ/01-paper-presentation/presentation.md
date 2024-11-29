@@ -30,6 +30,17 @@ David Araújo (93444)
 <!-- header: __Quantum Key Distribution Using Decoy State Protocol__ | Quantum Security Course - _Paper Presentation_ - PREVIEW-->
 <!-- footer: '![height:50px](./images/deti-logo.png) ![height:50px](./images/Marca-UA-Complementar-PRETO.png)' -->
 
+# IOWN: Context for Quantum Computing Development
+
+<!--
+- Innovative Optical and Wireless Network (IOWN): A next-generation network and computing infrastructure concept
+- Goal: Overcome current information and communication technology (ICT) limitations
+- Key objective: Enable Digital Twin Computing (DTC) for future prediction
+- Requires ultra-high-speed computing infrastructure capable of processing massive amounts of data
+-->
+
+---
+
 # Types of Quantum Computers
 
 <!--

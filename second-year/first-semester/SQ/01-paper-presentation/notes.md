@@ -1,4 +1,4 @@
-This paper discusses the development of quantum computers and their potential role in supporting the Innovative Optical and Wireless Network (IOWN) concept. Here are the key points:
+# Summary
 
 - NTT is working on developing a new computing infrastructure to support Digital Twin Computing (DTC), which requires processing huge amounts of data at unprecedented speeds.
 

@@ -156,7 +156,7 @@ Quantum computers leverage superposition to process many inputs simultaneously, 
 
 <div>
 
-To perform meaningful operations, quantum computers need larger _qubit_ systems, enhanced noise resistance, and more efficient circuits to reduce _qubit_ requirements. Progress also depends on improving _qubit_ precision, scalability through inter-hardware communication, and advanced error correction techniques
+To achieve useful quantum computation, increased scalability is essential. The current quantum computing hardware is still lacking the number of qubits required for meaningful operations, and the qubits that are available are highly susceptible to noise. Additional qubits are needed to correct errors and enable reliable operations.
 
 </div>
 
@@ -169,45 +169,82 @@ To perform meaningful operations, quantum computers need larger _qubit_ systems,
 </div>
 
 <!--
-Quantum computers have yet to achieve quantum transcendence, primarily due to insufficient qubits, noise susceptibility, and error correction needs. Overcoming this requires scaling up qubits, improving operational accuracy, and optimizing circuits to minimize qubit use. Efforts focus on advancing both hardware, for better qubits, and software, to enhance performance, scalability, and error management. These innovations aim to unlock the full potential of quantum computing systems.
+Achieving practical quantum computation requires overcoming challenges related to scalability. Currently, quantum computers do not have enough qubits to perform meaningful operations, and those available are prone to noise. To address this, more qubits are needed to correct errors and ensure that operations can be executed reliably. This is a key step towards proving that quantum computers can outperform classical ones.
 -->
 
 ---
 
 # NTT's Approach to Address Challenges
 
+<div class="columns">
+
+<div>
+
 ## Addressing Challenge 1
 
+We’re abstracting quantum hardware with libraries and SDKs to simplify development, enabling optimized processing across quantum and classical resources through instruction sets and compilers.
+
+</div>
+
+<div>
+
+![width:300px center](./images/solutions-02.png)
+
+</div>
+
+</div>
+
 <!--
--  Abstracting quantum hardware components
--  Developing specialized instruction sets and compilers
+To make quantum computing more practical for developers, the paper outlines efforts to abstract quantum hardware components using libraries and SDKs, similar to how early classical computers used assembly languages. This approach will allow developers to focus on building applications without managing the complexity of quantum hardware. Additionally, the paper discusses the development of instruction sets, high-level programming languages, and compilers that enable optimized processing by combining the unique strengths of quantum and classical computing resources, improving overall efficiency.
 -->
 
-Abstract the parts of quantum hardware that are used by application developers with libraries, SDKs, etc. to facilitate the development of applications that use quantum computers.
-
-Develop a language and compiler that handles quantum hardware and classical hardware and enables optimized processing by using the characteristics of various computing resources.
-
 ---
+
+<div class="columns">
+
+<div>
 
 ## Addressing Challenge 2
 
-<!--
--  Investigating tightly coupled system architectures
--  Developing distributed operating systems
--->
+Integrating quantum and classical hardware is key. Quantum computers accelerate specific tasks, while classical computers offer versatility. Optimized distribution boosts computing power.
 
-Develop an operating system that appropriately distributes processing by combining quantum hardware (i.e., an “accelerator” that demonstrates high speed in a specific domain) and classical hardware (which is versatile) in the right place at the right time.
+</div>
+
+<div>
+
+![width:300px center](./images/solutions-03.png)
+
+</div>
+
+</div>
+
+<!--
+The development of distributed operating systems is key to leveraging the strengths of quantum and classical hardware. Quantum computers serve as accelerators for specialized tasks, while classical computers handle versatile operations. The challenge lies in creating system architectures that seamlessly combine the two, distributing processing efficiently. Research focuses on tightly integrating various quantum and classical systems, enabling optimized task allocation and unlocking the full potential of quantum computing in practical applications.
+-->
 
 ---
 
+<div class="columns">
+
+<div>
+
 ## Addressing Challenge 3
 
-<!--
--  Improving qubit scalability through hardware research
--  Enhancing software capabilities for error suppression and tolerance
--->
+Enhancing quantum hardware utility through software by integrating high-precision, high-speed, compact technologies with advanced error-suppression and correction methods.
 
-Improve the usefulness of quantum hardware through the power of software by establishing and implementing high-precision, high-speed, and compact integration technology and superior error-suppression and error-correction theory in combination with quantum hardware.
+</div>
+
+<div>
+
+![width:300px center](./images/solutions-04.png)
+
+</div>
+
+</div>
+
+<!--
+The effectiveness of quantum hardware is significantly improved by combining it with advanced software solutions. Efforts focus on achieving high precision, faster processing, and compact integration. Additionally, robust error-suppression and correction theories are being developed to address the inherent noise and instability in quantum systems. This synergy between software and hardware aims to maximize the performance and reliability of quantum computing technologies.
+-->
 
 ---
 
@@ -216,6 +253,26 @@ Improve the usefulness of quantum hardware through the power of software by esta
 <!--
 -  Potential for ultra-high-speed problem-solving
 -  Ongoing development from Ising machines to NISQ and FTQCs
+-->
+
+<div class="columns">
+
+<div>
+
+Quantum computers offer ultra-fast solutions to problems beyond classical limits. NTT is developing architectures from Ising machines to NISQ computers and FTQCs.
+
+</div>
+
+<div>
+
+![center](./images/position-map.png)
+
+</div>
+
+</div>
+
+<!--
+Quantum computers offer unprecedented speed for solving complex problems beyond classical capabilities. NTT Computer and Data Science Laboratories is developing architectures that span practical Ising machines to NISQ and FTQC systems. While Ising machines are already closer to real-world application, further research is needed for the broader capabilities of NISQ and FTQCs. These efforts lay the groundwork for transformative quantum computing technologies.
 -->
 
 ---

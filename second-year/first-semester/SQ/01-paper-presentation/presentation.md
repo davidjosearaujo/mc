@@ -23,7 +23,7 @@ style: |
 
 ## S. Sakauchi, **_"Toward creation of a system architecture for quantum computers"_**, NTT Technical Review, vol. 21, no. 11, pp. 1-21, Nov. 2023.
 
-### Quantum Security Course - _Paper Presentation_ - PREVIEW
+### Quantum Security Course - _Paper Presentation_
 
 David Araújo (93444)
 
@@ -36,7 +36,7 @@ This paper discusses the development of quantum computers and their potential ro
 ---
 
 <!-- paginate: true -->
-<!-- header: __Quantum Key Distribution Using Decoy State Protocol__ | Quantum Security Course - _Paper Presentation_ - PREVIEW-->
+<!-- header: __Toward creation of a system architecture for quantum computers__ | Quantum Security Course - _Paper Presentation_ -->
 <!-- footer: '![height:50px](./images/deti-logo.png) ![height:50px](./images/Marca-UA-Complementar-PRETO.png)' -->
 
 # Innovative Optical and Wireless Network

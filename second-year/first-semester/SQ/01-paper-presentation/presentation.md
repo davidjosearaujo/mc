@@ -30,7 +30,7 @@ style: |
 David Araújo (93444)
 
 <!--
-This paper explores NTT's efforts to develop quantum system architectures under the IOWN initiative, focusing on ultra-fast, large-scale processing for applications like Digital Twin Computing. It addresses challenges in scalability, error correction, and integrating quantum systems, such as Ising machines and FTQCs, with classical computing to unlock quantum computing's potential.
+This paper explores NTT's efforts to develop quantum system architectures under the IOWN initiative, focusing on ultra-fast, large-scale processing for applications like Digital Twin Computing. It addresses challenges in scalability, error correction, and integrating quantum systems, such as Ising machines and fault tolerant quantum computers, with classical computing to unlock quantum computing's potential.
 -->
 
 ---
@@ -66,20 +66,22 @@ Quantum computers use _qubits_ to solve complex problems **faster**, created wit
 _Qubit_ computers have more potential, but **Ising machines are more practical**.
 
 <!--
-Number or qubits is currently limited. Current quantum computers lack scale and precision. Many companies and research institutes are developing multi-bit systems. A large-scale, fault-tolerant quantum computer (FTQC), capable of error correction during calculations like prime factorization, is not yet in practical use.
+Number or qubits is currently limited
 
-Ising machines specialize in solving combinatorial optimization problems that are time-consuming for classical computers. They use the Ising model, a statistical-mechanics model representing magnetic material properties. Unlike qubit-based quantum computers, Ising machines have limited applications but are already commercialized and lead in practical use.
+Current quantum computers lack scale and precision.
+
+A large-scale, fault-tolerant quantum computer (FTQC), capable of error correction during calculations like prime factorization, is not yet in practical use.
+
+Ising machines specialize in solving combinatorial optimization problems that are time-consuming for classical computers.
+
+They use the Ising model, a statistical-mechanics model representing magnetic material properties.
+
+Unlike qubit-based quantum computers, Ising machines have limited applications but are already commercialized and lead in practical use.
 -->
 
 ---
 
 # NTT's Research Focus Areas
-
-<!--
--  LASOLVTM computing system (Ising machine)
--  Optical quantum systems and superconducting systems
--  Error correction and suppression methods
--->
 
 NTT is developing Ising machines, NISQ computers, and **working toward fault-tolerant quantum computers** (FTQCs).
 
@@ -92,7 +94,9 @@ At NTT, they are advancing research in Ising machines and quantum computers, inc
 
 They developed the LASOLV™ Ising machine, which uses light for operations, and are exploring its applications.
 
-For quantum hardware, they are researching optical and superconducting systems. In software, their focus is on improving error correction and suppression for better performance.
+For quantum hardware, they are researching optical and superconducting systems.
+
+In software, their focus is on improving error correction and suppression for better performance.
 
 Their goal is to bridge the gap from NISQ computers to FTQCs by developing "early-FTQC" technology and building practical computing infrastructure, as FTQCs can solve a broader range of problems but are more difficult to implement.
 -->
@@ -120,9 +124,9 @@ Processing **general problems** with quantum computers requires complex algorith
 </div>
 
 <!--
-Quantum computers require specialized algorithms, making it necessary to study how general problems can be translated into complex quantum algorithms suitable for these systems. The reliance on quantum mechanics creates a high barrier for general application developers.
+Quantum computers require specialized algorithms, making it necessary to study how general problems can be translated into complex quantum algorithms suitable for these systems.
 
-To address this, efforts are focused on abstracting quantum hardware into libraries and SDKs, similar to how early classical computers evolved from assembly languages to higher-level tools. The goal is to develop instruction sets, intermediate representations, programming languages, and compilers that optimize processing for different types of quantum hardware.
+The reliance on quantum mechanics creates a high barrier for general application developers.
 -->
 
 ---
@@ -148,7 +152,9 @@ Quantum computers excel as **accelerators for specific tasks** but rely on seaml
 </div>
 
 <!--
-Quantum computers leverage superposition to process many inputs simultaneously, offering dramatic speed improvements for specific tasks like prime factorization. However, they are not fast enough to replace all classical computing operations. Instead, they function as accelerators. To maximize their advantage, it’s essential to design systems that integrate quantum and classical computing for optimal performance.
+Quantum computers leverage superposition to process many inputs simultaneously, offering dramatic speed improvements for specific tasks like prime factorization.
+
+However, they are not fast enough to replace all classical computing operations. Instead, they function as accelerators.
 -->
 
 ---
@@ -176,7 +182,11 @@ Additional *qubits* are needed to correct errors and enable reliable operations.
 </div>
 
 <!--
-Achieving practical quantum computation requires overcoming challenges related to scalability. Currently, quantum computers do not have enough qubits to perform meaningful operations, and those available are prone to noise. To address this, more qubits are needed to correct errors and ensure that operations can be executed reliably. This is a key step towards proving that quantum computers can outperform classical ones.
+Achieving practical quantum computation requires overcoming challenges related to scalability. 
+
+Currently, quantum computers do not have enough qubits to perform meaningful operations, and those available are prone to noise.
+
+More qubits are needed to correct errors and ensure that operations can be executed reliably.
 -->
 
 ---
@@ -202,7 +212,11 @@ We’re **abstracting quantum hardware with libraries and SDKs** to simplify dev
 </div>
 
 <!--
-To make quantum computing more practical for developers, the paper outlines efforts to abstract quantum hardware components using libraries and SDKs, similar to how early classical computers used assembly languages. This approach will allow developers to focus on building applications without managing the complexity of quantum hardware. Additionally, the paper discusses the development of instruction sets, high-level programming languages, and compilers that enable optimized processing by combining the unique strengths of quantum and classical computing resources, improving overall efficiency.
+Abstract quantum hardware components using libraries and SDKs, similar to how early classical computers used assembly languages. 
+
+Will allow developers to focus on building applications without managing the complexity of quantum hardware.
+
+Development of instruction sets, high-level programming languages, and compilers that enable optimized processing by combining the unique strengths of quantum and classical computing resources, improving overall efficiency.
 -->
 
 ---
@@ -228,7 +242,13 @@ Enabling **optimized task allocation**
 </div>
 
 <!--
-The development of distributed operating systems is key to leveraging the strengths of quantum and classical hardware. Quantum computers serve as accelerators for specialized tasks, while classical computers handle versatile operations. The challenge lies in creating system architectures that seamlessly combine the two, distributing processing efficiently. Research focuses on tightly integrating various quantum and classical systems, enabling optimized task allocation and unlocking the full potential of quantum computing in practical applications.
+The development of distributed operating systems is key to leveraging the strengths of quantum and classical hardware.
+
+Quantum computers serve as accelerators for specialized tasks, while classical computers handle versatile operations. 
+
+The challenge lies in creating system architectures that seamlessly combine the two, distributing processing efficiently.
+
+Optimized task allocation and unlocking the full potential of quantum computing in practical applications.
 -->
 
 ---
@@ -252,17 +272,16 @@ Enhancing quantum hardware **utility through software** by integrating high-prec
 </div>
 
 <!--
-The effectiveness of quantum hardware is significantly improved by combining it with advanced software solutions. Efforts focus on achieving high precision, faster processing, and compact integration. Additionally, robust error-suppression and correction theories are being developed to address the inherent noise and instability in quantum systems. This synergy between software and hardware aims to maximize the performance and reliability of quantum computing technologies.
+The effectiveness of quantum hardware is significantly improved by combining it with advanced software solutions.
+
+High precision, faster processing, and compact integration.
+
+Additionally, robust error-suppression and correction theories are being developed to address the inherent noise and instability in quantum systems.
 -->
 
 ---
 
 # Future Prospects and Conclusion
-
-<!--
--  Potential for ultra-high-speed problem-solving
--  Ongoing development from Ising machines to NISQ and FTQCs
--->
 
 <div class="columns">
 
@@ -281,7 +300,13 @@ Quantum computers offer ultra-fast solutions to problems beyond classical limits
 </div>
 
 <!--
-Quantum computers offer unprecedented speed for solving complex problems beyond classical capabilities. NTT Computer and Data Science Laboratories is developing architectures that span practical Ising machines to NISQ and FTQC systems. While Ising machines are already closer to real-world application, further research is needed for the broader capabilities of NISQ and FTQCs. These efforts lay the groundwork for transformative quantum computing technologies.
+Quantum computers offer unprecedented speed for solving complex problems beyond classical capabilities. 
+
+NTT Computer and Data Science Laboratories is developing architectures that span practical Ising machines to NISQ and FTQC systems.
+
+While Ising machines are already closer to real-world application, further research is needed for the broader capabilities of NISQ and FTQCs.
+
+These efforts lay the groundwork for transformative quantum computing technologies.
 -->
 
 ---

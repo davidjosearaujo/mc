@@ -19,7 +19,7 @@ style: |
     }
 ---
 
-<!-- footer: 25th of October 2024 -->
+<!-- footer: 25th of October 2024 | _davidaraujo@ua.pt_-->
 
 ![height:100px](./images/deti-logo.png) ![height:100px](./images/Marca-UA-Complementar-PRETO.png)
 

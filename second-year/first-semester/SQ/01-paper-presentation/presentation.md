@@ -81,6 +81,28 @@ Unlike qubit-based quantum computers, Ising machines have limited applications b
 
 ---
 
+# Ising Machines
+
+**Energy Minimization**: Finds the lowest-energy spin configuration to solve optimization problems.
+
+**Spin Dynamics**: Uses interactions between spins and external fields to model the problem and update states.
+
+**Implementation Flexibility**: Can be built with quantum annealers, optical circuits, or classical algorithms.
+
+**Real-World Applications**: Used in logistics, finance, and scheduling for efficient problem-solving.
+
+<!--
+Ising machines are computational systems that solve optimization problems by modeling them as the Ising model, which represents a network of binary variables (spins) connected by interactions.
+
+Each spin can be in one of two states (-1 or +1), and the machine aims to find the configuration that minimizes the total energy of the system (the Ising Hamiltonian).
+
+This is achieved by iteratively adjusting the states of the spins based on the interaction strengths and external fields, converging to a low-energy configuration that corresponds to the optimal solution.
+
+Physical implementations often leverage mechanisms like quantum annealing or optical feedback to simulate the energy minimization process.
+-->
+
+---
+
 # NTT's Research Focus Areas
 
 NTT is developing Ising machines, NISQ computers, and **working toward fault-tolerant quantum computers** (FTQCs).

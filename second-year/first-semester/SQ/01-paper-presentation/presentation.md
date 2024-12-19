@@ -83,13 +83,25 @@ Unlike qubit-based quantum computers, Ising machines have limited applications b
 
 # Ising Machines
 
-**Energy Minimization**: Finds the lowest-energy spin configuration to solve optimization problems.
+<div class="columns">
+
+<div>
+
+**Energy Minimization**: Finds the lowest-  energy spin configuration to solve optimization problems.
 
 **Spin Dynamics**: Uses interactions between spins and external fields to model the problem and update states.
+
+</div>
+
+<div>
 
 **Implementation Flexibility**: Can be built with quantum annealers, optical circuits, or classical algorithms.
 
 **Real-World Applications**: Used in logistics, finance, and scheduling for efficient problem-solving.
+
+</div>
+
+</div>
 
 <!--
 Ising machines are computational systems that solve optimization problems by modeling them as the Ising model, which represents a network of binary variables (spins) connected by interactions.

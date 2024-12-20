@@ -19,7 +19,7 @@ style: |
     }
 ---
 
-<!-- footer: 25th of October 2024 | _davidaraujo@ua.pt_-->
+<!-- footer: 20th of December 2024 | _davidaraujo@ua.pt_-->
 
 ![height:100px](./images/deti-logo.png) ![height:100px](./images/Marca-UA-Complementar-PRETO.png)
 
@@ -34,7 +34,7 @@ This paper explores NTT's efforts to develop quantum system architectures under 
 
 ~~~~
 
-Este paper serve como um guia para os objetivos do NTT Research Group relativamente ao desenvolvimento de arquiteturas para sistemas quântico, focados aplicação que requeiram processamento ultra rápido e de larga escala.
+Este paper serve como um guia para os objetivos do NTT Research Group relativamente ao desenvolvimento de arquiteturas para sistemas quântico, focados em aplicações que requeiram processamento ultra rápido e de larga escala.
 -->
 
 ---

@@ -30,10 +30,6 @@ style: |
 David Araújo (93444)
 
 <!--
-This paper explores NTT's efforts to develop quantum system architectures under the IOWN initiative, focusing on ultra-fast, large-scale processing for applications like Digital Twin Computing. It addresses challenges in scalability, error correction, and integrating quantum systems, such as Ising machines and fault tolerant quantum computers, with classical computing to unlock quantum computing's potential.
-
-~~~~
-
 Este paper serve como um guia para os objetivos do NTT Research Group relativamente ao desenvolvimento de arquiteturas para sistemas quântico, focados em aplicações que requeiram processamento ultra rápido e de larga escala.
 -->
 
@@ -74,20 +70,6 @@ Quantum computers use _qubits_ to solve complex problems **faster**, created wit
 _Qubit_ computers have more potential, but **Ising machines are more practical**.
 
 <!--
-Number or qubits is currently limited
-
-Current quantum computers lack scale and precision.
-
-A large-scale, fault-tolerant quantum computer (FTQC), capable of error correction during calculations like prime factorization, is not yet in practical use.
-
-Ising machines specialize in solving combinatorial optimization problems that are time-consuming for classical computers.
-
-They use the Ising model, a statistical-mechanics model representing magnetic material properties.
-
-Unlike qubit-based quantum computers, Ising machines have limited applications but are already commercialized and lead in practical use.
-
-~~~~
-
 Computadores quânticos usam qubits para resolver problemas complexos de forma mais rapida, e esses qubits podem ser gerados com métodos como super-condutividade, fotões e ion trapping.
 
 No entanto, computadores de larga escala, tolerantes a errro, conhecidos com FTOC, que sejam capazes de corrigir erros em tempo real, ainda não são práticos
@@ -118,19 +100,11 @@ No entanto, computadores de larga escala, tolerantes a errro, conhecidos com FTO
 </div>
 
 <!--
-Ising machines are computational systems that solve optimization problems by modeling them as the Ising model, which represents a network of binary variables (spins) connected by interactions.
-
-Each spin can be in one of two states (-1 or +1), and the machine aims to find the configuration that minimizes the total energy of the system (the Ising Hamiltonian).
-
-This is achieved by iteratively adjusting the states of the spins based on the interaction strengths and external fields, converging to a low-energy configuration that corresponds to the optimal solution.
-
-Physical implementations often leverage mechanisms like quantum annealing or optical feedback to simulate the energy minimization process.
-
-~~~~
-
 Altenativas como máquinas de Ising, são mais especializadas em resolver problemas combinatorios de otimização que tipicamente demoram muito tempo em computadores clássicos
 
-Elas alcançam isto ao representar os problemas como uma rede de variaveis binárias, -1 ou 1, os spins, ligadas por interações, e o objetivo é minimizar a energia total do sistema. E alcança isso, ao ajustar os spins baseado na força das interações e campos externos, convergingo para uma configuração de baixa energia que representa a solução ideal.
+Elas alcançam isto ao representar os problemas como uma rede de variaveis binárias, -1 ou +1, os spins, ligadas por interações, e o objetivo é minimizar a energia total do sistema.
+
+Alcança isso, ao ajustar os spins baseado na força das interações e campos externos, convergingo para uma configuração de baixa energia que representa a solução ideal.
 
 Como não utilizam qubits, podem ser implementadas com circuitos oticos, algoritmos classicos, entre outros
 -->
@@ -146,18 +120,6 @@ The LASOLV™ Ising machine uses **light** for operations, with ongoing research
 NTT is bridging the gap to FTQCs by researching "early-FTQC" technology, aiming to **create practical computing infrastructure**.
 
 <!--
-At NTT, they are advancing research in Ising machines and quantum computers, including NISQ computers and FTQCs.
-
-They developed the LASOLV™ Ising machine, which uses light for operations, and are exploring its applications.
-
-For quantum hardware, they are researching optical and superconducting systems.
-
-In software, their focus is on improving error correction and suppression for better performance.
-
-Their goal is to bridge the gap from NISQ computers to FTQCs by developing "early-FTQC" technology and building practical computing infrastructure, as FTQCs can solve a broader range of problems but are more difficult to implement.
-
-~~~~
-
 O grupo NTT para ja, a nivel de hardware, desenvolveu uma máquina de Ising que usa luz e super-condutores para as suas operações.
 
 A nível de software, o grupo quer melhorar a performance da correção de erros, assim como tornar a infraestrutura de desenvolvimento mais prática.
@@ -186,12 +148,6 @@ Processing **general problems** with quantum computers requires complex algorith
 </div>
 
 <!--
-Quantum computers require specialized algorithms, making it necessary to study how general problems can be translated into complex quantum algorithms suitable for these systems.
-
-The reliance on quantum mechanics creates a high barrier for general application developers.
-
-~~~~
-
 Computadores quanticos necessitam de algoritmos complexos, e atualmente torna dificil traduzir problemas gerais em expressões que possam ser interpretadas por computadores quanticos.
 
 Isto cria uma barreira à adoção da computação quântica por parte dos developers.
@@ -220,12 +176,6 @@ Quantum computers excel as **accelerators for specific tasks** but rely on seaml
 </div>
 
 <!--
-Quantum computers leverage superposition to process many inputs simultaneously, offering dramatic speed improvements for specific tasks like prime factorization.
-
-However, they are not fast enough to replace all classical computing operations. Instead, they function as accelerators.
-
-~~~~
-
 Apesar de os computadores quânticos tirarem vatagens da superposição para poder processar multiplos inputs simultaneamente, ainda não são rapidos o suficiente para substituir os computadores classicos em todas as vertentes
 -->
 
@@ -254,14 +204,6 @@ Additional *qubits* are needed to correct errors and enable reliable operations.
 </div>
 
 <!--
-Achieving practical quantum computation requires overcoming challenges related to scalability. 
-
-Currently, quantum computers do not have enough qubits to perform meaningful operations, and those available are prone to noise.
-
-More qubits are needed to correct errors and ensure that operations can be executed reliably.
-
-~~~~
-
 Para atingir niveis de computações que possam competir com o dos computadores classicos, escalabilidade é essencial
 
 Atualmente o computadores quântico ainda não possuem qubits em número suficiente para que possam realizar operações significativas em comparação com os classicos
@@ -292,14 +234,6 @@ We’re **abstracting quantum hardware with libraries and SDKs** to simplify dev
 </div>
 
 <!--
-Abstract quantum hardware components using libraries and SDKs, similar to how early classical computers used assembly languages. 
-
-Will allow developers to focus on building applications without managing the complexity of quantum hardware.
-
-Development of instruction sets, high-level programming languages, and compilers that enable optimized processing by combining the unique strengths of quantum and classical computing resources, improving overall efficiency.
-
-~~~~
-
 A forma como o NTT pretende resolver o primeiro desafio é desenvolver livrarias e SDKs que permitam abstrair o hardware utilizado de forma a simplificar o desenvolvimento
 
 Isto irá permitir também que sejam desenvolvidos novos instructions set, compiladores e linguagem de alto nível que otimizem o desenvolvimento de software mais complexo e capaz de tirar proveito da tecnologia quântica
@@ -328,16 +262,6 @@ Enabling **optimized task allocation**
 </div>
 
 <!--
-The development of distributed operating systems is key to leveraging the strengths of quantum and classical hardware.
-
-Quantum computers serve as accelerators for specialized tasks, while classical computers handle versatile operations. 
-
-The challenge lies in creating system architectures that seamlessly combine the two, distributing processing efficiently.
-
-Optimized task allocation and unlocking the full potential of quantum computing in practical applications.
-
-~~~~
-
 Uma vez que os computadores quânticos ainda só funcionam como aceleradores de funções especificas, desenvolver sistemas operativos distribuidos que permitam integrar computadores clássicos e quânticos é fundamental.
 
 Isto também facilitaria a alocação de tarefas entre os dois sistemas de forma mais eficiente
@@ -364,14 +288,6 @@ Enhancing quantum hardware **utility through software** by integrating high-prec
 </div>
 
 <!--
-The effectiveness of quantum hardware is significantly improved by combining it with advanced software solutions.
-
-High precision, faster processing, and compact integration.
-
-Additionally, robust error-suppression and correction theories are being developed to address the inherent noise and instability in quantum systems.
-
-~~~~
-
 Finalmente, o NTT também procura melhorar a utilidade do hardware existente ao melhorar a integração deste com software, tornando-o capaz de maior precisão, mais rapido e como melhor capacidade de correção e supressão de erros
 -->
 
